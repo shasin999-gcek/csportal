@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+
+<html lang="en-us" >
+<head>
+<title>Change students | Django site admin</title>
+<link rel="stylesheet" type="text/css" href="css/base.css" />
+<link rel="stylesheet" type="text/css" href="css/forms.css" />
+
+<meta name="robots" content="NONE,NOARCHIVE" />
+</head>
+
+
+<body class=" app-main model-students change-form"
+  data-admin-utc-offset="0">
+
+<!-- Container -->
+<div id="container">
+
+    
+    <!-- Header -->
+    <div id="header">
+        <div id="branding">
+        
+<h1 id="site-name"><a href="/admin/">Django administration</a></h1>
+
+        </div>
+        
+        
+        <div id="user-tools">
+            
+                Welcome,
+                <strong>shasin</strong>.
+            
+            
+                
+                    <a href="/">View site</a> /
+                
+                
+                    
+                    
+                
+                
+                <a href="/admin/password_change/">Change password</a> /
+                
+                <a href="/admin/logout/">Log out</a>
+            
+        </div>
+        
+        
+        
+    </div>
+    <!-- END Header -->
+    
+<div class="breadcrumbs">
+<a href="/admin/">Home</a>
+&rsaquo; <a href="/admin/main/">Main</a>
+&rsaquo; <a href="/admin/main/students/">Studentss</a>
+&rsaquo; Students object
+</div>
+
+    
+
+    
+        
+    
+
+    <!-- Content -->
+    <div id="content" class="colM">
+        
+        <h1>Change students</h1>
+        <div id="content-main">
+
+
+  <ul class="object-tools">
+    
+    <li>
+        
+        <a href="/admin/main/students/4/history/" class="historylink">History</a>
+    </li>
+    
+    
+  </ul>
+
+
+<form enctype="multipart/form-data" action="" method="post" id="students_form" novalidate><input type='hidden' name='csrfmiddlewaretoken' value='csSJEAkZMDQzAxqzXmHrU2AAhYXnEuiZSPluY5f6PlmcXFbiMsTMs9VoyAKL77iO' />
+<div>
+
+
+
+
+
+
+
+  <fieldset class="module aligned ">
+    
+    
+    
+        <div class="form-row field-rollNum">
+            
+            
+                <div>
+                    
+                    
+                        <label class="required" for="id_rollNum">RollNum:</label>
+                        
+                            <input class="vIntegerField" id="id_rollNum" name="rollNum" type="text" value="3" required />
+                        
+                    
+                    
+                </div>
+            
+        </div>
+    
+        <div class="form-row field-name">
+            
+            
+                <div>
+                    
+                    
+                        <label class="required" for="id_name">Name:</label>
+                        
+                            <input class="vTextField" id="id_name" maxlength="20" name="name" type="text" value="arfad" required />
+                        
+                    
+                    
+                </div>
+            
+        </div>
+    
+        <div class="form-row field-branch">
+            
+            
+                <div>
+                    
+                    
+                        <label class="required" for="id_branch">Branch:</label>
+                        
+                            <input class="vTextField" id="id_branch" maxlength="20" name="branch" type="text" value="CSE" required />
+                        
+                    
+                    
+                </div>
+            
+        </div>
+    
+        <div class="form-row field-sem">
+            
+            
+                <div>
+                    
+                    
+                        <label class="required" for="id_sem">Sem:</label>
+                        
+                            <input class="vTextField" id="id_sem" maxlength="2" name="sem" type="text" value="s1" required />
+                        
+                    
+                    
+                </div>
+            
+        </div>
+    
+</fieldset>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="submit-row">
+<input type="submit" value="Save" class="default" name="_save" />
+
+    
+    <p class="deletelink-box"><a href="/admin/main/students/4/delete/" class="deletelink">Delete</a></p>
+
+
+<input type="submit" value="Save and add another" name="_addanother" />
+<input type="submit" value="Save and continue editing" name="_continue" />
+</div>
+
+
+
+    <script type="text/javascript"
+            id="django-admin-form-add-constants"
+            src="/static/admin/js/change_form.js"
+            >
+    </script>
+
+
+
+
+<script type="text/javascript"
+        id="django-admin-prepopulated-fields-constants"
+        src="/static/admin/js/prepopulate_init.js"
+        data-prepopulated-fields="[]">
+</script>
+
+
+</div>
+</form></div>
+
+        
+        <br class="clear" />
+    </div>
+    <!-- END Content -->
+
+    <div id="footer"></div>
+</div>
+<!-- END Container -->
+
+</body>
+</html>
